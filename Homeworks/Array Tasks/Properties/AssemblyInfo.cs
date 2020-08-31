@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Homeworks")]
+[assembly: AssemblyTitle("Array Tasks")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Homeworks")]
+[assembly: AssemblyProduct("Array Tasks")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7d8b7f67-5a0a-4bf1-800b-a05a55ccf871")]
+[assembly: Guid("911a60bf-f8cb-4c6c-bf4e-a3d51b34cedd")]
 
 // Version information for an assembly consists of the following four values:
 //
