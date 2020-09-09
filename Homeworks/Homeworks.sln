@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array Tasks", "Array Tasks\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revers Number", "Revers Number\Revers Number.csproj", "{B58CDD7F-50E2-44DB-80DB-E34BB25E2B4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is Symmetric Array", "Is Symmetric Array\Is Symmetric Array.csproj", "{BE18B6AC-A2B3-4A1C-9631-A55952E497CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Tasks", "ConsoleApp1\Method Tasks.csproj", "{E92A7F2C-1CD1-468E-BC1C-E504B4CA986F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B58CDD7F-50E2-44DB-80DB-E34BB25E2B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58CDD7F-50E2-44DB-80DB-E34BB25E2B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58CDD7F-50E2-44DB-80DB-E34BB25E2B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE18B6AC-A2B3-4A1C-9631-A55952E497CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE18B6AC-A2B3-4A1C-9631-A55952E497CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE18B6AC-A2B3-4A1C-9631-A55952E497CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE18B6AC-A2B3-4A1C-9631-A55952E497CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92A7F2C-1CD1-468E-BC1C-E504B4CA986F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92A7F2C-1CD1-468E-BC1C-E504B4CA986F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92A7F2C-1CD1-468E-BC1C-E504B4CA986F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92A7F2C-1CD1-468E-BC1C-E504B4CA986F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
