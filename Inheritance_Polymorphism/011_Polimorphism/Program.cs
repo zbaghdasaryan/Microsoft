@@ -9,6 +9,7 @@ namespace Polimorphism_NVI
 {
     class BaseClass 
     {
+        //Non-Virtual method where we use virtual methodes
         public virtual void DoWork()
         {
             PreDoWork();
