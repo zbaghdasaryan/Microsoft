@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Sealed", "010_Sealed\01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_Polimorphism", "011_Polimorphism\011_Polimorphism.csproj", "{A5ADF545-05FF-41E2-B4D3-595FC82A5BB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_Polimorphism", "012_Polimorphism\012_Polimorphism.csproj", "{A749C010-F754-4202-A6D8-C2DD01265F11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A5ADF545-05FF-41E2-B4D3-595FC82A5BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5ADF545-05FF-41E2-B4D3-595FC82A5BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5ADF545-05FF-41E2-B4D3-595FC82A5BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A749C010-F754-4202-A6D8-C2DD01265F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A749C010-F754-4202-A6D8-C2DD01265F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A749C010-F754-4202-A6D8-C2DD01265F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A749C010-F754-4202-A6D8-C2DD01265F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
