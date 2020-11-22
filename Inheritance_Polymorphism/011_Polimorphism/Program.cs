@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//NVI (Non-Virtual Interface)
 namespace Polimorphism_NVI
 {
     class BaseClass 
