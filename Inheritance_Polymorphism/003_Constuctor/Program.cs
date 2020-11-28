@@ -56,6 +56,8 @@ namespace Constuctor_1
 
             Console.WriteLine(instance.baseNumber);
             Console.WriteLine(instance.derivedField);
+
+            Console.ReadKey();
         }
     }
 }

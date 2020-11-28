@@ -13,9 +13,9 @@ namespace Constuctor_2
             public int baseNumber;
 
             // Default constructor.
-            public BaseClass()
-            {
-            }
+            //public BaseClass()
+            //{
+            //}
 
             // Custom constructor.
             public BaseClass(int baseNumber)
@@ -29,9 +29,9 @@ namespace Constuctor_2
             public int derivedField;
 
             //Default constructor.
-            public DerivedClass()
-            {
-            }
+            //public DerivedClass()
+            //{
+            //}
 
             /*           
             The custom constructor of the base class is called without having to 
@@ -47,6 +47,7 @@ namespace Constuctor_2
         static void Main(string[] args)
         {
             DerivedClass instance = new DerivedClass(1, 2);
+            //DerivedClass instance = new DerivedClass();
 
             Console.WriteLine(instance.baseNumber);
             Console.WriteLine(instance.derivedField);

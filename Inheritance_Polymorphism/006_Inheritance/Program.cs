@@ -15,7 +15,7 @@ namespace Inheritance_6
     }
     class DerivedClass : BaseClass
     {
-        public void Method()
+        public new void Method()
         {
             Console.WriteLine("Method from DerivedClass");
         }
@@ -25,13 +25,13 @@ namespace Inheritance_6
         static void Main(string[] args)
         {
             DerivedClass instance = new DerivedClass();
-            instance.Method();
+            //instance.Method();
 
             // UpCast
             BaseClass instanceUp = instance;
-            instanceUp.Method();
+            //instanceUp.Method();
 
-            // DownCast
+            //// DownCast
             DerivedClass instanceDown = (DerivedClass)instanceUp;
             instanceDown.Method();
 

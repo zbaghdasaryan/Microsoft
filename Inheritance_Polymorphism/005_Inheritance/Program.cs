@@ -41,8 +41,8 @@ namespace Inheritance_5
             //Console.WriteLine(newInstance.field4);
             //Console.WriteLine(newInstance.field5);
 
-            //Console.WriteLine("instance Id     {0}", instance.GetHashCode());
-            //Console.WriteLine("newInstance Id  {0}", newInstance.GetHashCode());
+            Console.WriteLine("instance Id     {0}", instance.GetHashCode());
+            Console.WriteLine("newInstance Id  {0}", newInstance.GetHashCode());
 
             Console.ReadKey();
         }

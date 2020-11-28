@@ -18,6 +18,8 @@ namespace Inheritance_1
 
         // private fields.
         private string privateField = "BaseClass.privateField";
+        
+
     }
 
     class DerivedClass : BaseClass
@@ -38,7 +40,7 @@ namespace Inheritance_1
             DerivedClass instance = new DerivedClass();
 
             Console.WriteLine(instance.publicField);
-
+            Console.WriteLine(new string('-', 30));
             Console.ReadKey();
         }
     }
