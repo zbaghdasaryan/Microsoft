@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LINQ_001
 {
@@ -78,15 +76,14 @@ namespace LINQ_001
 
             //query using extension methodes
             var query2 = employees.
-                Where(emp => emp.Salary > 320000).
-                OrderBy(emp => emp.LastName).
-                OrderBy(emp => emp.FirstName).
-                Select(emp => new
-                {
-                    LastName = emp.LastName,
-                    FirstName = emp.FirstName
-
-                });
+                         Where(emp => emp.Salary > 320000).
+                         OrderBy(emp => emp.LastName).
+                         OrderBy(emp => emp.FirstName).
+                         Select(emp => new
+                         {
+                             LastName = emp.LastName,
+                             FirstName = emp.FirstName
+                         });
 
             //query using static methodes
             var query3 = Enumerable.Select(
