@@ -10,7 +10,7 @@ namespace Anonymous_002
     {
         static void Main(string[] args)
         {
-            var instance = new { Name = "Armen", Age = 25, Id = new { Number = 1 } };
+            var instance = new { Name = "Armen", Age = 25, Id = new { Number = 1} };
 
             Console.WriteLine("Name={0}, Age={1}, Id={2}", instance.Name, instance.Age, instance.Id.Number);
 
