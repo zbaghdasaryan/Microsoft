@@ -23,7 +23,7 @@ namespace Threads_001
             thread.Start();
 
             while (true)
-            {         
+            { 
                 Console.WriteLine("PrimaryThread");
             }
         }
