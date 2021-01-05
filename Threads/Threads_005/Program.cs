@@ -17,7 +17,7 @@ namespace Threads_005
             Thread thread = new Thread(delegate () { Console.WriteLine("1. counter = {0}", counter++); });
             thread.Start();
 
-            Thread.Sleep(100);
+            Thread.Sleep(5);
             Console.WriteLine("2. counter = {0}", counter++);
 
             //ParameterizedThreadStart
