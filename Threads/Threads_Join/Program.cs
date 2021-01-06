@@ -14,7 +14,7 @@ namespace Threads_Join
         {
             Console.WriteLine("Secondary Thread ID: {0}", Thread.CurrentThread.GetHashCode());
             Console.ForegroundColor = ConsoleColor.Yellow;
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 80; i++)
             {
                 Thread.Sleep(30);
                 Console.Write('.');
@@ -28,11 +28,12 @@ namespace Threads_Join
 
             Thread thread = new Thread(new ThreadStart(Function));
             thread.Start();
+            //Primary Thread wait Secondary Thread
             thread.Join();
 
             Console.WriteLine("Secondary Thread ID: {0}", Thread.CurrentThread.GetHashCode());
             Console.ForegroundColor = ConsoleColor.Green;
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 80; i++)
             {
                 Thread.Sleep(30);
                 Console.Write('-');

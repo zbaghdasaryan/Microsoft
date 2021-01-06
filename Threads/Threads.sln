@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Threads_Lock", "Threads
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Threads_Join", "Threads_Join\008_Threads_Join.csproj", "{BA7191B5-E1C7-4C3A-B93F-473C6142043D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Threads_Join", "009_Threads_Join\009_Threads_Join.csproj", "{B95097C8-3C21-4520-AB0F-7C0251B8028D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Threads_Join", "010_Threads_Join\010_Threads_Join.csproj", "{B3F35ECC-81F3-4791-94C1-963852A9777C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{BA7191B5-E1C7-4C3A-B93F-473C6142043D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA7191B5-E1C7-4C3A-B93F-473C6142043D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA7191B5-E1C7-4C3A-B93F-473C6142043D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95097C8-3C21-4520-AB0F-7C0251B8028D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95097C8-3C21-4520-AB0F-7C0251B8028D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95097C8-3C21-4520-AB0F-7C0251B8028D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95097C8-3C21-4520-AB0F-7C0251B8028D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F35ECC-81F3-4791-94C1-963852A9777C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F35ECC-81F3-4791-94C1-963852A9777C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F35ECC-81F3-4791-94C1-963852A9777C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F35ECC-81F3-4791-94C1-963852A9777C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
