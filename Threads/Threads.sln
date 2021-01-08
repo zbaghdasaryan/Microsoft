@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_Threads_ThreadPool", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "013_Threads_Mutex", "013_Threads_Mutex\013_Threads_Mutex.csproj", "{C1300F1A-B442-47AE-B452-53E9DF687A74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014_Threads_Semaphore", "014_Threads_Semaphore\014_Threads_Semaphore.csproj", "{D89262EC-5D05-48CB-8BFA-53C6EE78D646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C1300F1A-B442-47AE-B452-53E9DF687A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1300F1A-B442-47AE-B452-53E9DF687A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1300F1A-B442-47AE-B452-53E9DF687A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D89262EC-5D05-48CB-8BFA-53C6EE78D646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D89262EC-5D05-48CB-8BFA-53C6EE78D646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D89262EC-5D05-48CB-8BFA-53C6EE78D646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D89262EC-5D05-48CB-8BFA-53C6EE78D646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
